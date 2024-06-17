@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/event_home_page">
+
+    <action
+        android:id="@+id/navigate_to_settings"
+        app:destination="@id/settings" />
+
+    <action
+        android:id="@+id/navigate_to_repo_detail"
+        app:destination="@id/github_repo_detail" />
+
+    <fragment
+        android:id="@+id/github_search"
+        android:name="edu.oregonstate.cs492.eventsearchwithnavui.ui.EventFinderSearchFragment"
+        android:label="@string/label_github_search">
+        <action
+            android:id="@+id/navigate_to_bookmarked_repos"
+            app:destination="@id/bookmarked_repos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookmarked_repos"
+        android:name="edu.oregonstate.cs492.eventsearchwithnavui.ui.BookmarkedReposFragment"
+        android:label="@string/label_bookmarked_repos" />
+
+    <fragment
+        android:id="@+id/event_home_page"
+        android:name="edu.oregonstate.cs492.eventsearchwithnavui.ui.EventFinderHomePageFragment"
+        android:label="@string/label_event_home_page" >
+        <action
+            android:id="@+id/navigate_to_bookmarked_repos"
+            app:destination="@id/bookmarked_repos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/github_repo_detail"
+        android:name="edu.oregonstate.cs492.eventsearchwithnavui.ui.EventFinderRepoDetailFragment"
+        android:label="@string/label_github_repo_detail">
+        <argument
+            android:name="repo"
+            app:argType="edu.oregonstate.cs492.eventsearchwithnavui.data.EventFinderListJson"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:label="@string/label_settings"
+        android:name="edu.oregonstate.cs492.eventsearchwithnavui.ui.SettingsFragment" />
+
+    <fragment
+        android:id="@+id/contact_us"
+        android:label="@string/label_contact_us"
+        android:name="edu.oregonstate.cs492.eventsearchwithnavui.ui.EventFinderContactUsFragment" >
+        <action
+            android:id="@+id/navigate_to_bookmarked_repos"
+            app:destination="@id/bookmarked_repos" />
+    </fragment>
+
+</navigation>

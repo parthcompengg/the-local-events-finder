@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_bookmarks.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_bookmarks.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_search.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_search.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_search.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/menu_github_repo_detail_menu.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/menu/github_repo_detail_menu.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/menu_github_search_menu.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/menu/github_search_menu.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_bookmark_on.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_bookmark_on.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable_baseline_star_outline_24.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable/baseline_star_outline_24.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_open_in_browser.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_open_in_browser.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/menu_main_nav_drawer_menu.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/menu/main_nav_drawer_menu.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/layout_fragment_github_repo_detail.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/layout/fragment_github_repo_detail.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/layout_fragment_bookmarked_repos.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/layout/fragment_bookmarked_repos.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_share.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_share.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_bookmark_on.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_bookmark_on.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_bookmarks.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_bookmarks.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_bookmarks.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_bookmarks.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/xml_settings.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/xml/settings.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_bookmark_off.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_bookmark_off.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_settings.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_open_in_browser.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_open_in_browser.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_search.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_search.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/layout_activity_main_with_bottom_tabs.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/layout/activity_main_with_bottom_tabs.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_share.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_share.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_open_in_browser.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_open_in_browser.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/menu_activity_main_menu.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/menu/activity_main_menu.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/navigation_main_nav_graph.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/navigation/main_nav_graph.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_bookmark_off.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_bookmark_off.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_bookmark_off.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_bookmark_off.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable_ic_baseline_search_24.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_bookmark_on.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_bookmark_on.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/xml_data_extraction_rules.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_share.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable_ic_launcher_background.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_search.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_bookmarks.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_bookmarks.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_open_in_browser.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_open_in_browser.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/layout_activity_main_with_nav_drawer.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/layout/activity_main_with_nav_drawer.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_open_in_browser.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_open_in_browser.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/menu_main_bottom_nav_menu.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/menu/main_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_bookmarks.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_bookmarks.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/layout_github_repo_list_item.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/layout/github_repo_list_item.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/xml_backup_rules.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_bookmark_off.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_bookmark_off.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_share.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xhdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_share.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_share.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_settings.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/layout_fragment_github_search.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/layout/fragment_github_search.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-mdpi_ic_action_search.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-hdpi_ic_action_bookmark_on.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-hdpi/ic_action_bookmark_on.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-anydpi_ic_action_settings.xml.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-anydpi/ic_action_settings.xml"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_bookmark_on.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_bookmark_on.png"
+    },
+    {
+        "merged": "edu.oregonstate.cs492.eventsearchwithnavui.app-merged_res-55:/drawable-xxhdpi_ic_action_bookmark_off.png.flat",
+        "source": "edu.oregonstate.cs492.eventsearchwithnavui.app-main-57:/drawable-xxhdpi/ic_action_bookmark_off.png"
+    }
+]

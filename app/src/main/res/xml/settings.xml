@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditTextPreference
+        android:title="@string/pref_zip_code"
+        android:key="@string/pref_zip_key"
+        app:useSimpleSummaryProvider="true"
+        app:defaultValue="@string/pref_zip_default"
+        />
+
+
+</PreferenceScreen>

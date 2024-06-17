@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">The Local Event Finder</string>
+
+    <string name="search_hint">Search Events...</string>
+    <string name="zipcode_hint">Enter Zip Code...</string>
+    <string name="search">Search</string>
+    <string name="find_location">Find Device Location</string>
+    <string name="search_error">
+      Error fetching search results: %1$s
+    </string>
+
+    <string name="label_github_search">Event Search</string>
+    <string name="label_github_repo_detail">Event Details</string>
+    <string name="label_bookmarked_repos">Bookmarked Events</string>
+    <string name="label_event_home_page">Event Homepage</string>
+    <string name="label_settings">Settings</string>
+
+<!--    Contact Us Page-->
+    <string name="label_contact_us">Contact Us</string>
+    <string name="tv_contact_us">Where to Contact Us:</string>
+    <string name="contact_us_hours">Hours: Monday through Friday; 9:00am - 5:00pm</string>
+    <string name="contact_us_address">Address: 2500 NW Monroe Ave, Corvallis, OR 97331</string>
+    <string name="contact_us_phone">Phone: (541)–737–2867 </string>
+    <string name="contact_us_email">Email: contact@theeventfinder.com </string>
+    <string name="contact_us_website">Website: www.theeventfinder.com </string>
+
+
+
+
+    <!--    Event Category Labels-->
+    <string name="tv_categories_text">Categories</string>
+    <string name="tv_music_text">Music</string>
+    <string name="tv_comedy_text">Comedy</string>
+    <string name="tv_sport_text">Sports</string>
+    <string name="tv_family_text">Family</string>
+    <string name="tv_drama_text">Drama</string>
+    <string name="tv_miscellaneous_text">Miscellaneous</string>
+    <string name="btn_grab_location">Location</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_bookmarks">View bookmarks</string>
+    <string name="action_bookmark">Bookmark this Event</string>
+    <string name="action_open_in_browser">View on TicketMaster</string>
+    <string name="action_share">Share</string>
+    <string name="share_text">%1$s on Event Finder: %2$s</string>
+    <string name="open_in_browser_error">There was an error opening the page on GitHub.com.  Make sure you have a web browser installed.</string>
+    <string name="venue_location">%1$s, %2$s</string>
+    <!-- Below are strings related to preferences/settings -->
+    <string name="pref_category_search">Search settings</string>
+
+    <string name="pref_zip_code">Zip Code</string>
+    <string name="pref_zip_key" translatable="false">zipcode</string>
+    <string name="pref_zip_default">97301</string>
+
+    <string name="pref_user_title">Search only for repos by this GitHub user</string>
+    <string name="pref_language_title">Search by programming language</string>
+    <string name="pref_first_issues_title">Minimum number of good first issues</string>
+
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_user_key" translatable="false">user</string>
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_first_issues_key" translatable="false">first_issues</string>
+
+    <string name="pref_sort_entry_stars">Stars</string>
+    <string name="pref_sort_entry_forks">Forks</string>
+    <string name="pref_sort_entry_updated">Most-recently updated</string>
+
+    <string name="pref_sort_val_stars" translatable="false">stars</string>
+    <string name="pref_sort_val_forks" translatable="false">forks</string>
+    <string name="pref_sort_val_updated" translatable="false">updated</string>
+
+    <string name="pref_sort_default">@string/pref_sort_val_stars</string>
+
+    <string name="pref_language_entry_c">C</string>
+    <string name="pref_language_entry_cpp">C++</string>
+    <string name="pref_language_entry_java">Java</string>
+    <string name="pref_language_entry_kotlin">Kotlin</string>
+    <string name="pref_language_entry_javascript">Javascript</string>
+    <string name="pref_language_entry_rust">Rust</string>
+    <string name="pref_language_entry_python">Python</string>
+
+    <string name="pref_language_val_c" translatable="false">c</string>
+    <string name="pref_language_val_cpp" translatable="false">c++</string>
+    <string name="pref_language_val_java" translatable="false">java</string>
+    <string name="pref_language_val_kotlin" translatable="false">kotlin</string>
+    <string name="pref_language_val_javascript" translatable="false">javascript</string>
+    <string name="pref_language_val_rust" translatable="false">rust</string>
+    <string name="pref_language_val_python" translatable="false">python</string>
+    <string name="pref_language_not_set">Not set</string>
+
+    <plurals name="pref_language_summary">
+        <item quantity="one">%d language</item>
+        <item quantity="other">%d languages</item>
+    </plurals>
+</resources>

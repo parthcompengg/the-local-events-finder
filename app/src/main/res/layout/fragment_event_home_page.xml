@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivityWithNavDrawer">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/event_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/home_page_text_field"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:hint="@string/zipcode_hint"
+                app:startIconDrawable="@drawable/ic_baseline_search_24">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_search_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+<!--            Grab Device Location Button-->
+            <Button
+                android:id="@+id/btn_grab_location"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_location_alt_icon" />
+
+<!--            Categories Label-->
+            <TextView
+                android:id="@+id/categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/home_page_text_field"
+                android:paddingTop="90dp"
+                android:paddingBottom="25dp"
+                android:text="@string/tv_categories_text"/>
+
+<!--            Music Icon-->
+            <ImageView
+                android:id="@+id/iv_music_icon"
+                android:layout_width="90dp"
+                android:background="@drawable/circlebg"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_music_icon"
+                android:contentDescription="@string/tv_music_text"
+                app:layout_constraintTop_toBottomOf="@id/categories"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="1dp"/>
+
+<!--            Music TextView-->
+            <TextView
+                android:id="@+id/tv_music"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_music_icon"
+                android:paddingStart="35dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="1dp"
+                android:text="@string/tv_music_text" />
+
+<!--            Comedy Icon-->
+            <ImageView
+                android:id="@+id/iv_comedy_icon"
+                android:background="@drawable/circlebg"
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_comedy_icon"
+                android:contentDescription="@string/tv_comedy_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_music_icon"
+                app:layout_constraintTop_toBottomOf="@id/categories"
+                android:layout_marginStart="75dp"
+                android:layout_marginEnd="1dp"/>
+
+<!--            Comedy Text View-->
+            <TextView
+                android:id="@+id/tv_comedy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_comedy_icon"
+                android:paddingStart="1dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="53dp"
+                android:text="@string/tv_comedy_text"/>
+
+<!--            Sports Image-->
+            <ImageView
+                android:id="@+id/iv_sports_icon"
+                android:background="@drawable/circlebg"
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_sports_icon"
+                android:contentDescription="@string/tv_sport_text"
+                app:layout_constraintTop_toBottomOf="@id/tv_music"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp" />
+
+
+<!--            Sports Text View-->
+            <TextView
+                android:id="@+id/tv_sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_sports_icon"
+                android:paddingStart="35dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="1dp"
+                android:text="@string/tv_sport_text" />
+
+
+            <!--            Family Image-->
+            <ImageView
+                android:id="@+id/iv_family_icon"
+                android:background="@drawable/circlebg"
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_family_icon"
+                android:contentDescription="@string/tv_family_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_sports_icon"
+                app:layout_constraintTop_toBottomOf="@id/tv_comedy"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp" />
+
+            <!--            Family Text View-->
+            <TextView
+                android:id="@+id/tv_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_family_icon"
+                android:paddingStart="1dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="60dp"
+                android:text="@string/tv_family_text" />
+
+            <!--            Drama Image-->
+            <ImageView
+                android:id="@+id/iv_drama_icon"
+                android:background="@drawable/circlebg"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_cultural_icon"
+                android:contentDescription="@string/tv_drama_text"
+                app:layout_constraintTop_toBottomOf="@id/tv_sports"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp" />
+
+            <!--            Drama Text View-->
+            <TextView
+                android:id="@+id/tv_drama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_drama_icon"
+                android:paddingStart="30dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="1dp"
+                android:text="@string/tv_drama_text" />
+
+            <!--            Miscellaneous Image-->
+            <ImageView
+                android:id="@+id/iv_miscellaneous_icon"
+                android:background="@drawable/circlebg"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_misc_icon"
+                android:contentDescription="@string/tv_miscellaneous_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_drama_icon"
+                app:layout_constraintTop_toBottomOf="@id/tv_family"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp" />
+
+
+            <!--            Miscellaneous Text View-->
+            <TextView
+                android:id="@+id/tv_miscellaneous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_miscellaneous_icon"
+                android:paddingStart="1dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="25dp"
+                android:text="@string/tv_miscellaneous_text" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_loading_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="?attr/colorError"
+            android:visibility="invisible" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/loading_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+</ScrollView>

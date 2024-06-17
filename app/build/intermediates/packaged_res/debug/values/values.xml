@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_language_entries">
+        <item>@string/pref_language_entry_c</item>
+        <item>@string/pref_language_entry_cpp</item>
+        <item>@string/pref_language_entry_java</item>
+        <item>@string/pref_language_entry_javascript</item>
+        <item>@string/pref_language_entry_kotlin</item>
+        <item>@string/pref_language_entry_python</item>
+        <item>@string/pref_language_entry_rust</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>@string/pref_language_val_c</item>
+        <item>@string/pref_language_val_cpp</item>
+        <item>@string/pref_language_val_java</item>
+        <item>@string/pref_language_val_javascript</item>
+        <item>@string/pref_language_val_kotlin</item>
+        <item>@string/pref_language_val_python</item>
+        <item>@string/pref_language_val_rust</item>
+    </string-array>
+    <string-array name="pref_sort_entries">
+        <item>@string/pref_sort_entry_stars</item>
+        <item>@string/pref_sort_entry_forks</item>
+        <item>@string/pref_sort_entry_updated</item>
+    </string-array>
+    <string-array name="pref_sort_values">
+        <item>@string/pref_sort_val_stars</item>
+        <item>@string/pref_sort_val_forks</item>
+        <item>@string/pref_sort_val_updated</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <plurals name="pref_language_summary">
+        <item quantity="one">%d language</item>
+        <item quantity="other">%d languages</item>
+    </plurals>
+    <string name="action_bookmark">Bookmark this Event</string>
+    <string name="action_bookmarks">View bookmarks</string>
+    <string name="action_open_in_browser">View on GitHub</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="app_name">Event Finder</string>
+    <string name="label_bookmarked_repos">Bookmarked repos</string>
+    <string name="label_github_repo_detail">Event Details</string>
+    <string name="label_github_search">Event Search</string>
+    <string name="label_settings">Settings</string>
+    <string name="open_in_browser_error">There was an error opening the page on GitHub.com.  Make sure you have a web browser installed.</string>
+    <string name="pref_category_search">Search settings</string>
+    <string name="pref_first_issues_key" translatable="false">first_issues</string>
+    <string name="pref_first_issues_title">Minimum number of good first issues</string>
+    <string name="pref_language_entry_c">C</string>
+    <string name="pref_language_entry_cpp">C++</string>
+    <string name="pref_language_entry_java">Java</string>
+    <string name="pref_language_entry_javascript">Javascript</string>
+    <string name="pref_language_entry_kotlin">Kotlin</string>
+    <string name="pref_language_entry_python">Python</string>
+    <string name="pref_language_entry_rust">Rust</string>
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_language_not_set">Not set</string>
+    <string name="pref_language_title">Search by programming language</string>
+    <string name="pref_language_val_c" translatable="false">c</string>
+    <string name="pref_language_val_cpp" translatable="false">c++</string>
+    <string name="pref_language_val_java" translatable="false">java</string>
+    <string name="pref_language_val_javascript" translatable="false">javascript</string>
+    <string name="pref_language_val_kotlin" translatable="false">kotlin</string>
+    <string name="pref_language_val_python" translatable="false">python</string>
+    <string name="pref_language_val_rust" translatable="false">rust</string>
+    <string name="pref_sort_default">@string/pref_sort_val_stars</string>
+    <string name="pref_sort_entry_forks">Forks</string>
+    <string name="pref_sort_entry_stars">Stars</string>
+    <string name="pref_sort_entry_updated">Most-recently updated</string>
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_sort_title">Sort by</string>
+    <string name="pref_sort_val_forks" translatable="false">forks</string>
+    <string name="pref_sort_val_stars" translatable="false">stars</string>
+    <string name="pref_sort_val_updated" translatable="false">updated</string>
+    <string name="pref_user_key" translatable="false">user</string>
+    <string name="pref_user_title">Search only for repos by this GitHub user</string>
+    <string name="search">Search</string>
+    <string name="search_error">
+      Error fetching search results: %1$s
+    </string>
+    <string name="search_hint">Search Events...</string>
+    <string name="share_text">%1$s on Event Finder: %2$s</string>
+    <style name="Base.Theme.BasicToDos" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BasicToDos" parent="Base.Theme.BasicToDos"/>
+</resources>
