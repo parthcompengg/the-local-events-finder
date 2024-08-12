@@ -2,7 +2,7 @@
 
 - !! IMPORTANT: When commiting changes, don't commit local.properties or ANY app.build filed !!
 
-- Members: Baptiste Boiteux, Emily West, Parth Shah, Garrett Berliner
+- Members: Parth Shah, Baptiste Boiteux, Emily West, Garrett Berliner
 
 - High-level description: A mobile app that grabs location to display events that are happening around you via zip code. 
 
