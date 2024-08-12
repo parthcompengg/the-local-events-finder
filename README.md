@@ -1,5 +1,4 @@
 # final-project-the-local-event-finder-g13
-final-project-the-local-event-finder-g13 created by GitHub Classroom
 
 - !! IMPORTANT: When commiting changes, don't commit local.properties or ANY app.build filed !!
 
